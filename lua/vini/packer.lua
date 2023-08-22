@@ -39,4 +39,7 @@ return require('packer').startup(function(use)
 		  {'L3MON4D3/LuaSnip'},     -- Required
 	  }
   }
+
+  use 'prichrd/netrw.nvim'
+  use 'nvim-tree/nvim-web-devicons'
 end)
